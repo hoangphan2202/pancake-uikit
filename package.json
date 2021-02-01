@@ -17,7 +17,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest",
-    "release": "yarn build && np"
+    "release": "yarn build && np",
+    "prepare": "npm run build"
   },
   "husky": {
     "hooks": {
