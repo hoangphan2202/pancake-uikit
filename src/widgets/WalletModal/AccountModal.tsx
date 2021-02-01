@@ -24,13 +24,13 @@ const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null
     </Text>
     <Link
       fontSize="14px"
-      href={`https://bscscan.com/address/${account}`}
+      href={`https://etherscan.io/address/${account}`}
       target="blank"
       rel="noopener noreferrer"
       mb="32px"
     >
       <OpenNewIcon width="20px" color="primary" mr="4px" />
-      View on BscScan
+      View on Etherscan
     </Link>
     <Flex justifyContent="center">
       <Button
